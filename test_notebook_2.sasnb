@@ -1,0 +1,1 @@
+[{"kind":2,"language":"sas","value":"%macro runcars;\n\n    title \"Print of CARS dataset within a macro.\";\n    proc print data= SASHELP.CARS (obs=10);\n    quit;\n    \n%mend runcars;","outputs":[]}]
