@@ -66,5 +66,9 @@ filename INCSAS URL "https://raw.githubusercontent.com/sascommunities/sas-dummy-
 %freqcars;
 
 
+/*------------------------------------------------------------------------------------
+   Test 4 (refer README) : 
+-------------------------------------------------------------------------------------*/
+%includesasnb(filepath = &WORKSPACE_PATH./sasnb_test/test_notebook_4.sasnb, noexec=1);
 
 

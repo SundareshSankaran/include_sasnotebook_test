@@ -10,6 +10,8 @@ This repo provides an example to test a [recent macro](https://github.com/sascom
 
 3. Given a SAS notebook ([test_notebook_3.sasnb](./test_notebook_3.sasnb)) containing a combination of codes and SAS macros, when the user executes a SAS program with an include statement referring the .sasnb file with defaults and calls one of the contained macros, then the standalone SAS code and the called SAS macro executed in the order in which they are called.
 
+4. Given a SAS notebook ([test_notebook_4.sasnb](./test_notebook_4.sasnb)) containing python code embedded within a proc python step, when the user executes a SAS program with an include statement referring the .sasnb file with defaults, then the python code is executed wrapped with proc python.
+
 
 ## Process
 
